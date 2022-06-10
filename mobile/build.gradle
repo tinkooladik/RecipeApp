@@ -43,17 +43,14 @@ android {
 }
 
 dependencies {
+    implementation project(":common")
 
-    implementation "androidx.core:core-ktx:$vers.ktx"
     implementation "androidx.compose.ui:ui:$vers.compose"
     implementation "androidx.compose.material3:material3:$vers.material"
     implementation "androidx.compose.ui:ui-tooling-preview:$vers.compose"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$vers.lifecycle"
     implementation "androidx.activity:activity-compose:$vers.activity_compose"
 
-    testImplementation "junit:junit:$vers.junit"
-    androidTestImplementation "androidx.test.ext:junit:$vers.junit_android"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$vers.espresso"
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$vers.compose"
 
     debugImplementation "androidx.compose.ui:ui-tooling:$vers.compose"
