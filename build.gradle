@@ -8,8 +8,12 @@ buildscript {
     dependencies {
         classpath "com.google.dagger:hilt-android-gradle-plugin:$vers.hilt"
         classpath "com.android.tools.build:gradle:$vers.gradle"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$vers.kotlin"
     }
+}
+
+plugins {
+    id "org.jlleitschuh.gradle.ktlint" version "10.3.0"
+    id "org.jlleitschuh.gradle.ktlint-idea" version "10.3.0"
 }
 
 task clean(type: Delete) {
