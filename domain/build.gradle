@@ -1,0 +1,14 @@
+plugins {
+    id 'kotlin'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$vers.coroutines"
+
+    implementation "com.michael-bull.kotlin-result:kotlin-result:$vers.result"
+    implementation "com.michael-bull.kotlin-result:kotlin-result-coroutines:$vers.result"
+
+    implementation "javax.inject:javax.inject:$vers.javax"
+
+    testImplementation "junit:junit:$vers.junit"
+}
