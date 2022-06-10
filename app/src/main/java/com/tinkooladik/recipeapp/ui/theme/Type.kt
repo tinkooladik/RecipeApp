@@ -1,4 +1,4 @@
-package com.tinkooladik.recipeapp.mobile.ui.theme
+package com.tinkooladik.recipeapp.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
