@@ -1,4 +1,4 @@
-package com.tinkooladik.recipeapp.ui.theme
+package com.tinkooladik.recipeapp.mobile.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
